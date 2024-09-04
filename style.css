@@ -8,7 +8,7 @@
   --white: hsl(0, 0%, 100%);
   --green: hsl(75, 94%, 57%);
   --grey-900: hsl(0,0%,8%);
-  --grey-800: rgba(31,31,31,50%);
+  --grey-800: hsl(0,0%,12%);
   --grey-700: hsl(0,0%,20%);
 }
 
@@ -45,6 +45,9 @@ body {
 
 
 .card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .card-info h2 {
